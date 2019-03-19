@@ -1,0 +1,6 @@
+In form validation when we change something in form data that time browser cache the value
+so need to refresh using ctrl+f5(clear cache)
+
+bdskill register
+
+feature of project

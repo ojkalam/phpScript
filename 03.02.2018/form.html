@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form validation</title>
+</head>
+<body>
+
+	<form method="POST" onsubmit="return formValidate();" name="myform">
+		
+		Name: <input type="text"  name="fullname" ><br>
+		password: <input type="password" name="pass"><br>
+		number: <input type="text" name="tel"><br>
+		email: <input type="text" name="email"><br>
+		<input type="submit" name="" >
+
+	</form>
+
+	<script type="text/javascript">
+		function formValidate(){
+			var x = document.forms["myform"]["fullname"].value;
+			var pass = document.forms["myform"]["pass"].value;
+			var tel = document.forms["myform"]["tel"].value;
+			//check dot and at
+			    var email = document.forms["myform"]["email"].value;
+			    var atpos = email.indexOf("@");
+			    var dotpos =  email.lastIndexOf(".");
+			    var dotvalid = dotpos - atpos;
+			    if (x == "") {
+			        alert("Name must be filled out");
+			        //return false;
+			    }else if (pass.length < 4 || pass.length >10 ) {
+			    	alert ("password greater than 4 and less than 10");
+			    }else if (isNaN(tel)) {
+			    	alert ("your inputed value not number");
+			    }
+			    
+			    else if(atpos<2 || dotvalid < 3){
+			    	alert("invalid email address");
+			    }
+
+		}
+	</script>
+
+</body>
+</html>
