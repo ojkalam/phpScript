@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Prime number from 1 to N</title>
+	<title>Print all Prime number from 1 to N</title>
 </head>
 <body>	
 
