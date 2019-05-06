@@ -1,0 +1,23 @@
+This field is required.
+Please enter a valid email address.
+Please enter no more than 255 characters.
+Please enter no more than 30 characters.
+Please enter no more than 500 characters.
+Please enter at least 6 characters.
+Please enter a value less than or equal to 99.
+Please enter a value greater than or equal to 0.
+Please enter a value greater than or equal to 5.
+Please enter a valid URL.
+Please enter a valid date.
+Please enter a valid date ( ISO ).
+Please enter a valid number.
+Please enter only digits.
+Please enter the same value again.
+Age must be greater than 18.
+Email address is already Existed.
+The file must be an image (jpg, jpeg, png or gif)
+Old Password and New Password must be different.
+
+
+
+NOTE: Need to convert in all languages of VRENT
